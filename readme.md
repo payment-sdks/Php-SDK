@@ -82,10 +82,10 @@ Before getting started, ensure you have the following:
 
 ## Direct API Usage
 
-1. **To initialize the PaymentSDK class, provide the $IVKey, $consumerSecret, and $environment parameters. The $environment should be one of the following: 'production' or 'sandbox'.**
+1. **To initialize the PaymentSDK class, provide the $IVKey, $consumerSecret, $rootDomain, and $environment parameters. The $environment should be one of the following: 'production' or 'sandbox'.**
 
     ```bash
-   $PaymentSDK = new PaymentSDK($IVKey, $consumerSecret, $environment);
+   $PaymentSDK = new PaymentSDK($IVKey, $consumerSecret, $rootDomain, $environment);
    
 2. **Direct Charge**
 
